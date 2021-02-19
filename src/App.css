@@ -1,0 +1,98 @@
+.App {
+  margin: 0;
+  min-height: 100vh;
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(238, 136, 242, 1) 100%
+  );
+  text-align: center;
+  color: rgb(250, 250, 250, 0.9);
+}
+.counter-cards {
+  width: 75%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: auto;
+  flex-wrap: wrap;
+}
+.increement > button {
+  background: rgba(115, 206, 19, 0.5);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: #ffffff;
+  width: 7.5rem;
+  height: 7.5rem;
+  font-size: 5rem;
+  align-self: center;
+  text-align: center;
+  cursor: pointer;
+  outline: transparent !important;
+  margin-top: 10px;
+}
+.reset > button {
+  background: rgba(230, 149, 11, 0.5);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: #ffffff;
+  width: 7.5rem;
+  height: 7.5rem;
+  font-size: 2.5rem;
+  align-self: center;
+  text-align: center;
+  cursor: pointer;
+  outline: transparent !important;
+  margin-top: 10px;
+}
+.decreement > button {
+  background: rgba(208, 2, 27, 0.5);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: #ffffff;
+  width: 7.5rem;
+  height: 7.5rem;
+  font-size: 5rem;
+  align-self: center;
+  text-align: center;
+  cursor: pointer;
+  outline: transparent !important;
+  margin-top: 10px;
+}
+.oddeven {
+  /* margin-top: 25px; */
+  margin-bottom: 25px;
+}
+.Even-Number {
+  font-size: 1.25rem;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  padding: 10px;
+  border-radius: 10px;
+  color: #ffffff;
+}
+.Odd-Number {
+  font-size: 1.25rem;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  padding: 10px;
+  border-radius: 10px;
+  color: #ffffff;
+}
+.app-title {
+  font-size: 2rem;
+  font-family: cursive;
+  font-weight: 900;
+}
+.countervalue > h2 {
+  font-size: 3rem;
+}
